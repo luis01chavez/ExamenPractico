@@ -1,0 +1,26 @@
+body{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.datos{
+    font: bold 20px/1.5 Arial, sans-serif;
+    font-weight: bold;
+    color: rgb(13, 231, 13);
+}
+
+.title{
+    font: bold 20px/1.5 Arial, sans-serif;
+    font-weight: bold;
+    color: blue;
+}
+
+.imagen{
+    border: 5px solid rgb(13, 231, 13);
+}
+
+.imgcent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,23 @@
+<body>
+    <table class="table table-dark table-hover">
+        <thead class="thead-info">
+            <tr>
+                <th class="title">Nombre del personaje</th>
+                <th class="title">Status</th>
+                <th class="title">Género</th>
+                <th class="title">Imagen</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let personaje of personajes">
+                <td class="datos">{{ personaje.name }}</td>
+                <td class="datos">{{ personaje.status }}</td>
+                <td class="datos">{{ personaje.gender }}</td>
+                <td class="imgcent">
+                    <img class="imagen" [src]="personaje.image" alt="{{ personaje.name }}" width="150px" />
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
